@@ -65,7 +65,7 @@
     font-size: 25px;
 }
 .meau2 li a:hover{
-    background: #06f0d1;
+    background: rgb(50, 150, 218);
 }
 .wrap{
     width: 800px;
@@ -107,6 +107,7 @@
     margin-top: 30px;
 }
 .youxibiao li{
+    position: relative;
     margin: 20px 0;
     font-size: 30px;
     color: #fff;
@@ -115,9 +116,28 @@
 .youxibiao li:hover{
     background: cornflowerblue;
 }
-
+.youxi{
+    position: absolute;
+    left: 420px;
+    top: 0;
+    display: none;
+    width: 590px;
+    background: red;
+    z-index: 15;
+}
+.youxibiao li:hover .youxi{
+    background: #3d67b4;
+    display: block;
+}
+.youxi .kuang{
+    color:#fff;
+}
+.youxi .kuang:hover{
+    background: rgb(50, 150, 218);
+}
 /*广告框内容*/
 .guanggao{
+    position: relative;
     height: 600px;
 }
 .swiper-container {
