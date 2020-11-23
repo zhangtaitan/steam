@@ -1,0 +1,114 @@
+/* 头部 */
+.header{
+    height: 100px;
+    background: rgb(15, 130, 206);
+}
+.container{
+    width: 1520px;
+    margin: 0 auto;
+}
+.header img{
+    width: 200px;
+    float: left;
+    margin: 20px 0 0 20px;
+} 
+.meau {
+    float: left;
+    margin: 0 20px;
+}
+.meau li a{ 
+    color: rgb(178, 186, 194);
+}
+.meau li{
+    float: left;
+    margin: 0 40px;
+    line-height: 100px;
+    font-size: 25px;
+}
+.meau li a:hover{
+    color: rgb(255, 253, 253);
+}
+.download{
+    float: right;
+    line-height: 100px;
+    font-size: 25px;
+    margin-right: 70px;
+}
+.download .denglu{
+    margin-right: 20px;
+}
+.download a{
+    color: rgb(178, 186, 194) ;
+}
+.denglu:hover,.zhuce:hover{
+    color:rgb(255, 253, 253);
+}
+/* 搜索框 */
+.sousuo{
+    height: 80px;
+    background: rgb(13, 87, 136);
+}
+.meau2{
+    float: left;
+    margin-left: 80px;
+}
+.meau2 li a{ 
+    display: block;
+    color: rgb(178, 186, 194);
+    line-height: 80px;
+    height: 80px;
+    padding: 0 25px
+}
+.meau2 li{
+    float: left;
+    line-height: 80px;
+    font-size: 25px;
+}
+.meau2 li a:hover{
+    color: #fff;
+    background: rgb(50, 150, 218);
+}
+.wrap{
+    position: relative;
+    width: 681px;
+    height: 30px;
+    float: right;
+    margin-top: 25px; 
+    margin-right: 120px; 
+}
+.ipt{
+    width: 665px;
+    height: 28px; 
+    float: left;
+    border:1px solid rgb(0, 0, 0);
+    background: #f1f1f1;
+    color: #888888;
+    padding-left: 15px; 
+}
+/* 输入列表时弹出想要的内容  */
+.list{
+    display: block;
+    margin-top: 30px;
+    position: absolute;
+    background-color: #ccc;
+    z-index: 50;
+}
+.list li{
+    background: rgb(37, 37, 83);
+    color: #eee;
+    width: 651px;
+    line-height: 20px;
+    padding: 4px 15px; 
+  }
+.list li:hover{
+    color: rgb(1, 1, 14);
+    background-color: #eee;
+  }
+ /*  */
+.sub{
+    position: absolute; 
+    bottom: 336px;
+    right: 67px;
+    width: 50px;
+    height: 30px;
+}

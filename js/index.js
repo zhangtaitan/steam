@@ -1,3 +1,9 @@
+//
+
+
+
+
+
 //搜索框
 var ipt = document.querySelector('.ipt')
 var list = document.querySelector('.list')
