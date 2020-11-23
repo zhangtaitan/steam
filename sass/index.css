@@ -401,3 +401,54 @@
     color: #fff;
 }
 /* 底部版权 */
+.foot{
+    height: 156px;
+    background:#111923;
+}
+.foot-content{
+    width: 940px;
+    margin: 0px auto;
+    padding-top: 16px;
+}
+.rule{
+    height: 8px;
+    border-top: 1px solid #363c44;;
+}
+.foot-logo-left{
+    float: left;
+    padding-top: 2px;
+}
+.foot-logo-left img{
+    width: 88px;
+    height: 25px;
+}
+.foot-text{
+    float: left;
+    margin-left: 12px;
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px;
+}
+.foot-text div a{
+    color: #C6D4DF;
+}
+.foot-text div a:hover{
+    color: #fff;
+}
+.foot-logo-right{
+    float: right;
+    padding-top: 2px;
+}
+.value-list{
+    float: left;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #C6D4DF;
+}
+.value-list a{
+    color:#C6D4DF;
+}
+.value-list a:hover{
+    color:#fff ;
+}
