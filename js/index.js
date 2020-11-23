@@ -1,6 +1,7 @@
 //搜索框
 var ipt = document.querySelector('.ipt')
 var list = document.querySelector('.list')
+var li1 = document.querySelectorAll('.list li')
 
 ipt.onkeyup = function (){
 
@@ -20,7 +21,15 @@ ipt.onkeyup = function (){
 
 }
 
-
+document.onclick= function(e){
+   console.log(e.target.className)
+   if(e.target.className === "ipt"){
+     list.style.display = "block";
+   }
+   else{
+     list.style.display = "none";
+   }
+}
 //广告
 var mySwiper = new Swiper ('.swiper-container', {
   direction: 'horizontal', // 垂直切换选项
