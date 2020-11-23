@@ -26,3 +26,73 @@ var mySwiper = new Swiper ('.swiper-container', {
     disableOnInteraction: true,
   }
 }) 
+
+//视频播放
+var player = new Aliplayer({
+  "id": "player-con",
+  "source": "../img/飙狼.mp4",
+  "width": "600px",
+  "height": "400px",
+  "autoplay": true,
+  "isLive": false,
+  "rePlay": true,
+  "playsinline": true,
+  "preload": true,
+  "controlBarVisibility": "hover",
+  "useH5Prism": true
+}, function (player) {
+    player._switchLevel = 0;
+    console.log("播放器创建了。");
+  }
+);
+var player = new Aliplayer({
+  "id": "player-con1",
+  "source": "../img/飙狼.mp4",
+  "width": "600px",
+  "height": "400px",
+  "autoplay": true,
+  "isLive": false,
+  "rePlay": true,
+  "playsinline": true,
+  "preload": true,
+  "controlBarVisibility": "hover",
+  "useH5Prism": true
+}, function (player) {
+    player._switchLevel = 0;
+    console.log("播放器创建了。");
+  }
+);
+var player = new Aliplayer({
+  "id": "player-con2",
+  "source": "../img/飙狼.mp4",
+  "width": "600px",
+  "height": "400px",
+  "autoplay": true,
+  "isLive": false,
+  "rePlay": true,
+  "playsinline": true,
+  "preload": true,
+  "controlBarVisibility": "hover",
+  "useH5Prism": true
+}, function (player) {
+    player._switchLevel = 0;
+    console.log("播放器创建了。");
+  }
+);
+var player = new Aliplayer({
+  "id": "player-con3",
+  "source": "../img/飙狼.mp4",
+  "width": "600px",
+  "height": "400px",
+  "autoplay": true,
+  "isLive": false,
+  "rePlay": true,
+  "playsinline": true,
+  "preload": true,
+  "controlBarVisibility": "hover",
+  "useH5Prism": true
+}, function (player) {
+    player._switchLevel = 0;
+    console.log("播放器创建了。");
+  }
+);
