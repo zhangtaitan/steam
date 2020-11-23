@@ -275,7 +275,7 @@
 }
 /* 视频播放源 */
 .shiping{
-    border: 1px rgb(13, 87, 136) solid ;
+    border-top: 1px rgb(13, 87, 136) solid ;
     height: 1100px;
     background:  rgb(13, 87, 136);
 }
@@ -342,6 +342,62 @@
 }
 /* 推荐登陆和注册 */
 .tuijian{
-    height: 300px;
+    height: 200px;
     background: #000;
 }
+.tui1{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-weight: normal;
+    font-size: 24px;
+    color: #67c1f5;
+    text-align: center;
+    padding-top:15px;
+}
+.tui2{
+    position: relative;
+    width: 940px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.content{
+    background: rgba( 0, 0, 0, 0.2 );
+    width: 908px;
+    padding: 16px;
+    text-align: center;
+    font-size: 15px;
+    color: #8f98a0;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-weight: normal;
+}
+.singin{
+    text-align: center;
+    font-size: 15px;
+    color: #8f98a0;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.singin .jinqu{
+    margin-top: 18px;
+    /* padding: 1px; */
+    display: inline-block;
+    cursor: pointer;
+    color: #D2E885;
+    background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+}
+.singin .jinqu span{
+    border-radius: 2px;
+    width: 50px;
+    height: 20px;
+    display:block;
+    background: linear-gradient( to bottom, #799905 5%, #536904 95%);
+}
+.singin .jinqu span:hover{
+    background: yellowgreen;
+    color: rgb(250, 245, 245);
+}
+.singin a{
+    color: #fff;
+}
+/* 底部版权 */
