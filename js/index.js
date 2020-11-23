@@ -1,3 +1,26 @@
+//搜索框
+var ipt = document.querySelector('.ipt')
+var list = document.querySelector('.list')
+
+ipt.onkeyup = function (){
+
+  jsonp({
+    url: 'http://suggestion.baidu.com/su',
+    data: 'wd='+ipt.value,
+    jsonp: 'cb',
+    jsonpCallback: 'hehe',//自定义函数名
+    success: function mycb(json){
+      var domStr = ''
+      json.s.forEach(function (item){
+        domStr += '<li>'+item+'</li>'
+      })
+      list.innerHTML = domStr
+    }
+  })
+
+}
+
+
 //广告
 var mySwiper = new Swiper ('.swiper-container', {
   direction: 'horizontal', // 垂直切换选项
