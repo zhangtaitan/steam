@@ -1,0 +1,59 @@
+.header{
+    height: 100px;
+    background: rgb(15, 130, 206);
+}
+.container{
+    width: 1520px;
+    margin: 0 auto;
+}
+.header img{
+    width: 200px;
+    float: left;
+    margin: 20px 0 0 20px;
+} 
+.meau {
+    float: left;
+    margin: 0 20px;
+}
+.meau li a{ 
+    color: rgb(178, 186, 194);
+}
+.meau li{
+    float: left;
+    margin: 0 40px;
+    line-height: 100px;
+    font-size: 25px;
+}
+.meau li a:hover{
+    color: rgb(255, 253, 253);
+}
+.che{
+    display: block;
+    font-size: 15px;
+    color: #8f98a0;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 27px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    background: linear-gradient( to bottom, #799905 5%, #536904 95%);
+}
+.download{
+    float: right;
+    line-height: 100px;
+    font-size: 25px;
+    margin-right: 70px;
+}
+.download .denglu{
+    margin-right: 20px;
+}
+.download a{
+    color: rgb(178, 186, 194) ;
+}
+.denglu:hover,.zhuce:hover{
+    color:rgb(255, 253, 253);
+}
