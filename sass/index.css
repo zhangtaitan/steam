@@ -28,6 +28,21 @@
 .meau li a:hover{
     color: rgb(255, 253, 253);
 }
+.che{
+    display: block;
+    font-size: 15px;
+    color: #8f98a0;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 27px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    background: linear-gradient( to bottom, #799905 5%, #536904 95%);
+}
 .download{
     float: right;
     line-height: 100px;
@@ -107,10 +122,11 @@
  /*  */
 .sub{
     position: absolute; 
-    bottom: 336px;
+    top:125px;
     right: 67px;
     width: 50px;
     height: 30px;
+    z-index: 50;
 }
 /* 游戏列表内容 */
 .youxiliebiao{
@@ -220,7 +236,6 @@
   }
   .goods div{
     border: 1px solid rgb(27, 238, 80);
-    color: rgb(27, 238, 80);
     font-size: 14px;
     width: 100px;
     line-height: 30px;
@@ -229,6 +244,9 @@
     margin: 0 auto;
     margin-top: 50px;
     cursor: pointer;
+  }
+  .goods div a{
+      color: rgb(27, 238, 80) ;
   }
   /* steam新闻简介 */
   /* steam新闻 */
