@@ -191,9 +191,6 @@
     width: 100%;
     height: 100%;
 }
-.swiper-button-prev{
-    
-} 
 /*游戏购物区*/
 .main{
     height: 550px;
@@ -235,6 +232,7 @@
       color: #f1f1f1;
   }
   .goods div{
+    color: rgb(27, 238, 80);
     border: 1px solid rgb(27, 238, 80);
     font-size: 14px;
     width: 100px;
@@ -244,9 +242,6 @@
     margin: 0 auto;
     margin-top: 50px;
     cursor: pointer;
-  }
-  .goods div a{
-      color: rgb(27, 238, 80) ;
   }
   /* steam新闻简介 */
   /* steam新闻 */

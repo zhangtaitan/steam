@@ -1,0 +1,10 @@
+[
+	{"title":"糖豆人系列","imgurl":"../img/tangdouren.jpg","price":"$58","code":"abc1"},
+	{"title":"使命召唤17","imgurl":"../img/shimingzhaohuan.jpg","price":"$129","code":"abc2"},
+	{"title":"PUDG","imgurl":"../img/juediqiusheng.jpg","price":"$80","code":"abc3"},
+	{"title":"高达对战世纪","imgurl":"../img/gaoda.jpg","price":"$69","code":"abc4"},
+	{"title":"NBA2K21","imgurl":"../img/2k21.jpg","price":"$216","code":"abc5"},
+	{"title":"原神","imgurl":"../img/yuanshen.jpg","price":"$5","code":"abc6"},
+	{"title":"极品飞车21","imgurl":"../img/jiping.jpg","price":"$121","code":"abc7"},
+	{"title":"i wanna","imgurl":"../img/i wanna.jpg","price":"$24","code":"abc8"}
+]
