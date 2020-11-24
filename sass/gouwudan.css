@@ -210,14 +210,71 @@
   }
 /* 优惠倒计时 */
 .youhui{
-    margin-right: 30px;
+    margin-right: 70px;
     float: right;
-    width: 600px;
-    height: 1100px;
-    background: lightgreen;
+    width: 533px;
+    height: 1150px;
+
 }
-
-
+.zhekou{
+    margin-bottom: 30px;
+    padding: 0px;
+    height: 350px;
+    box-shadow: 0 0 5px #000;
+    background: linear-gradient(to bottom, #758996 75%,#30588b 95%);
+}
+.zhekou .youxitu{
+    width:533px;
+    height:auto;
+}
+.jiage{
+    position: relative;
+    margin-left:10px;
+    margin-top: 6px;
+}
+.jiage .yuanjia{
+    padding: 0 5px;
+    line-height: 34px;
+    color: #df8484;
+    background: #ca1717;
+    display: inline-block;
+    font-size: 16px;
+}
+.jiage .xianjia{
+    padding: 0 5px;
+    line-height: 34px;
+    color: #a4d007;
+    background: #4c6b22;
+    display: inline-block;
+    font-size: 16px;
+}
+.jiage .tehui{
+    float: right;
+    margin-right:60px ;
+    color: #c6d4df
+}
+#shijian{
+    position: absolute;
+    top: 18px;
+    right: 27px;
+    color: #c4e4f2;
+    display: inline-block;
+    padding: 0 4px;
+    background: #4f95bd;
+    margin-left: 10px;
+    font-size: 10px;
+}
+#shijian1{
+    position: absolute;
+    top: 18px;
+    right: 27px;
+    color: #c4e4f2;
+    display: inline-block;
+    padding: 0 4px;
+    background: #4f95bd;
+    margin-left: 10px;
+    font-size: 10px;
+}
 /* 主内容 */
 /* 底部版权 */
 .foot{
