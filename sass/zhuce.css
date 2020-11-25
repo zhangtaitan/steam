@@ -1,3 +1,14 @@
+/* 注册错误提示 */
+input.error{
+    border-color: red;
+  }
+
+label.error{
+    color: red;
+    margin-left: 160px;
+    margin-bottom: 8px;
+    display: block;
+  }
 /* 头部 */
 .header{
     height: 100px;
@@ -66,7 +77,7 @@
 .zhucehao{
     border: 1px solid #212429;
     width: 900px;
-    height: 622px;
+    height: 672px;
     background: #212429;
     margin:0 auto;
 }
@@ -84,7 +95,7 @@
     color: #b8b6b4;
     margin: 0 0 5px 160px;
 }
-.zhucehao .dizhi{
+.zhucehao .email{
     max-width: 300px;
     background: #32353C;
     border-radius: 3px;
@@ -166,6 +177,10 @@
     background: #1767a5;
     padding: 3px 40px;
     margin: 40px 0 0 160px;
+}
+.zhu:hover{
+    color: #E9E9E9;
+    background: rgb(58, 67, 190);
 }
 /* 底部版权 */
 .foot{
