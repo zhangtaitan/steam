@@ -29,7 +29,7 @@
     color: rgb(255, 253, 253);
 }
 .che{
-    display: block;
+    
     font-size: 15px;
     color: #8f98a0;
     font-family: "Motiva Sans", Sans-serif;
@@ -37,11 +37,14 @@
     cursor: pointer;
     margin-top: 27px;
     text-align: center;
-    color: rgb(255, 255, 255);
     float: left;
     width: 100px;
     line-height: 50px;
     background: linear-gradient( to bottom, #799905 5%, #536904 95%);
+}
+.che a{
+    display: block;
+    color: rgb(255, 255, 255);
 }
 .download{
     float: right;
