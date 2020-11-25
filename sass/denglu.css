@@ -1,3 +1,4 @@
+/* 头部 */
 .header{
     height: 100px;
     background: rgb(15, 130, 206);
@@ -56,4 +57,148 @@
 }
 .denglu:hover,.zhuce:hover{
     color:rgb(255, 253, 253);
+}
+/* 登陆界面 */
+.login{
+    height: 800px;
+    background-image: url(../img/beijing.jpg);
+}
+.steamhao{
+    width: 620px;
+    height: 700px;
+    background: radial-gradient(30% 40% at 40% 30%, rgba(33, 36, 41, .5) 0%, rgba(33, 36, 41, 0) 100%) no-repeat;
+    float: left;
+    margin-left:260px;
+}
+.steamhao1{
+    width: 600px;
+    height: 412px;
+    margin: 30px auto 0;
+}
+.steamhao1 h1{
+    margin-bottom: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 34px;
+    color: #ffffff;
+}
+.steamhao1 .mingcheng{
+    font-size: 14px;
+    color: #b8b6b4;
+    margin: 0 0 5px 150px;
+}
+.steamhao1 .lu{
+    max-width: 300px;
+    background: #32353C;
+    border-radius: 3px;
+    color: #E9E9E9;
+    padding: 8px 6px;
+    display: block;
+    border: 1px solid #26282D;
+    font-weight: normal;
+    width: 100%;
+    margin: 0 0 18px 150px;
+}
+.steamhao1 .lock{
+    font-size: 14px;
+    color: #b8b6b4;
+    margin: 0 0 5px 150px;
+}
+.steamhao1 .ma{
+    max-width: 300px;
+    background: #32353C;
+    border-radius: 3px;
+    color: #E9E9E9;
+    padding: 8px 6px;
+    display: block;
+    border: 1px solid #26282D;
+    font-weight: normal;
+    width: 100%;
+    margin: 0 0 18px 150px;
+}
+.steamhao1 .niu{
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: block;
+    cursor: pointer;
+    color: #c3e1f8;
+    background: #1767a5;
+    padding: 3px 80px;
+    margin: 0 auto;
+}
+.steamhao1 .niu:hover{
+    color: #E9E9E9;
+    background: rgb(58, 67, 190);
+}
+.steamhao1 .wangji{
+    display: inline-block;
+    color: #E9E9E9;
+    margin-left: 263px;
+    margin-top: 25px;
+}
+.steamhao1 .wangji:hover{
+    color: #186dce;
+}
+/* 了解更多相关 */
+.jiaru{
+    width: 320px;
+    height: 700px;
+    background: yellowgreen;
+    float: left;
+    margin-left: 50px;
+}
+.
+/* 底部版权 */
+.foot{
+    height: 156px;
+    background:#111923;
+}
+.foot-content{
+    width: 940px;
+    margin: 0px auto;
+    padding-top: 16px;
+}
+.rule{
+    height: 8px;
+    border-top: 1px solid #363c44;;
+}
+.foot-logo-left{
+    float: left;
+    padding-top: 2px;
+}
+.foot-logo-left img{
+    width: 88px;
+    height: 25px;
+}
+.foot-text{
+    float: left;
+    margin-left: 12px;
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px;
+}
+.foot-text div a{
+    color: #C6D4DF;
+}
+.foot-text div a:hover{
+    color: #fff;
+}
+.foot-logo-right{
+    float: right;
+    padding-top: 2px;
+}
+.value-list{
+    float: left;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #C6D4DF;
+}
+.value-list a{
+    color:#C6D4DF;
+}
+.value-list a:hover{
+    color:#fff ;
 }

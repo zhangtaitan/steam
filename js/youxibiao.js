@@ -39,7 +39,7 @@ $(function (){
               console.log(index)
               console.log(item)
               if (item.code === code) {// 商品存在购物车中，数量+1
-                item.num++
+                // item.num++
                 hasGoods = true
                 return false
               }
