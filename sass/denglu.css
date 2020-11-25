@@ -144,12 +144,57 @@
 /* 了解更多相关 */
 .jiaru{
     width: 320px;
-    height: 700px;
-    background: yellowgreen;
+    height: 600px;
+    background: #212429;
     float: left;
     margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
 }
-.
+.tansuo,.liaojie{
+    max-width: 60%;
+    text-align: center;
+    font-size: 14px;
+}
+.tansuo{
+    color: #b8b6b4;
+}
+.liaojie{
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.jiaru img{
+    width: 320px;
+    height: 218px;
+}
+.jiandan{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b8b6b4;
+}
+.join{
+    margin: 20px 0 0 0;
+    display: block;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    color: #fff
+}
+.join>span{
+    display: block;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 2px;
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.join>span:hover{
+    border-color: #fff;
+}
 /* 底部版权 */
 .foot{
     height: 156px;
