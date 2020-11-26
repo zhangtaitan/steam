@@ -67,7 +67,7 @@ var shijian1 = document.getElementById("shijian1");
 		
 		var timer = setInterval(function(){
 			s--;
-			console.log(s);
+			// console.log(s);
 			if(s <= 0){
         shijian.innerHTML = "活动已结束";
         shijian1.innerHTML = "活动已结束";
@@ -77,21 +77,22 @@ var shijian1 = document.getElementById("shijian1");
 			}
 			init(s);
     },1000);
-
+	console.log("lol");
 //购物车数据
 $(function (){
-
+    console.log(localStorage.getItem('goods'));
 	// 判断本地存储是否有购物车数据
 	if (localStorage.getItem('goods')) {// 有数据
-	  // 获取本地存储中购物车的数据
+	  //获取本地存储中购物车的数据
 	  var goodsArr = JSON.parse( localStorage.getItem('goods') )
-  
+      
 	  // 获取数据
 	  $.ajax({
-		url: '../data/goods.json',
+		url: '../data/youxibiao.json',
 		type: 'get',
 		dataType: 'json',
 		success: function (json){
+		console.log(json);
 		  var domStr = ''
 		  $.each(goodsArr,function (index,item){
 			$.each(json,function (ind,obj){
@@ -133,7 +134,7 @@ $(function (){
 		} else {
 		  // 清除本地数据
 		  localStorage.removeItem('goods')
-		  var nodata = '<li style="line-height: 70px; text-align: center;">购物车暂无数据！</li>'
+		  var nodata = '<li style="line-height: 70px; text-align: center; color:white;">购物车暂无数据！</li>'
 		  $('.list1').html(nodata)
 		}
   
@@ -142,7 +143,7 @@ $(function (){
 	  })
   
 	} else {// 没数据
-	  var nodata = '<li style="line-height: 70px; text-align: center;">购物车暂无数据！</li>'
+	  var nodata = '<li style="line-height: 70px; text-align: center; color:white;">购物车暂无数据！</li>'
 	  $('.list1').html(nodata)
 	}
   
