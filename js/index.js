@@ -37,7 +37,7 @@ document.onclick= function(e){
    }
 }
 //广告
-var mySwiper = new Swiper ('.swiper-container', {
+var mySwiper1 = new Swiper ('.swiper-container1', {
   direction: 'horizontal', // 垂直切换选项
   loop: true, // 循环模式选项
   
@@ -53,17 +53,45 @@ var mySwiper = new Swiper ('.swiper-container', {
   },
   
   // 如果需要滚动条
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
   
   //自动循环
   autoplay: {
     delay: 3000,
     stopOnLastSlide: false,
-    disableOnInteraction: true,
+    disableOnInteraction: false,
   }
 }) 
+//免费游戏
+var mySwiper2 = new Swiper ('.swiper-container2', {
+  effect : 'coverflow',
+  slidesPerView: 1,
+  centeredSlides: true,
+  slideToClickedSlide: true,
+  coverflowEffect: {
+       rotate: 30,
+       stretch: 10,
+       depth: 60,
+       modifier: 2,
+       slideShadows : true
+  },
+
+  autoplay: {
+    delay: 3000,
+    stopOnLastSlide: false,
+    disableOnInteraction: false,
+},
+
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+
+loop : true,
+loopAdditionalSlides : 3,
+})  
 
 //视频播放
 var player = new Aliplayer({

@@ -77,10 +77,8 @@ var shijian1 = document.getElementById("shijian1");
 			}
 			init(s);
     },1000);
-	console.log("lol");
 //购物车数据
 $(function (){
-    console.log(localStorage.getItem('goods'));
 	// 判断本地存储是否有购物车数据
 	if (localStorage.getItem('goods')) {// 有数据
 	  //获取本地存储中购物车的数据

@@ -40,6 +40,7 @@ $(function (){
               console.log(item)
               if (item.code === code) {// 商品存在购物车中，数量+1
                 // item.num++
+                alert("游戏不可重复购买")
                 hasGoods = true
                 return false
               }
